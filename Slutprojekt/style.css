@@ -1,0 +1,56 @@
+html{
+    height: 100%;
+}
+
+@media screen and (max-width: 770px){
+    .image{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 771px){
+    .image{
+        text-align: center;
+        width: 70%;
+        padding-left: 20px;
+        padding-right : 20px;
+    }
+}
+
+
+*{  
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgb(17, 36, 66), #080928);
+    color: #ffffff;
+}
+
+.maincontent{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.maincontent_om {
+    text-align: center;
+    font-size: 700;
+    padding-top: 20px;
+}
+
+.maincontent_p {
+    font-size: 700;
+    font-weight: 500;
+
+    padding-left: 100px;
+    padding-top: 20px;
+    width: 30%;
+    margin: left;
+
+}
+
+
